@@ -1,0 +1,6 @@
+image: nathanshaw/conference:0.0.1-SNAPSHOT
+dbms: mysql
+healthCheckPath: "/management/health"
+roles:
+  - "conference-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
